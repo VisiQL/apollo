@@ -1,0 +1,26 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node apollo-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisiQL/apollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisiQL/apollo/issues"
+  },
+  "homepage": "https://github.com/VisiQL/apollo#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "pg": "^8.9.0"
+  }
+}
