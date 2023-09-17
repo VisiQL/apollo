@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Pool } = require('pg');
 
 let userPool = new Pool({
-  connectionString: process.env.databaseURL,
+  connectionString:  'postgres://xstskucd:HUMKg1LzALryqlQM26N5uKLWF5ol1fbT@peanut.db.elephantsql.com/xstskucd',
 });
 
 module.exports = {

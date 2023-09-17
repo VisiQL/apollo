@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/VisiQL/apollo#readme",
   "dependencies": {
-    "apollo-server": "^3.11.1",
+    "@apollo/server": "^4.9.0",
     "dotenv": "^16.0.3",
-    "graphql": "^16.6.0",
+    "graphql": "^16.7.1",
     "pg": "^8.9.0"
   }
 }
