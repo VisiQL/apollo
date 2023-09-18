@@ -8,7 +8,8 @@ const server = new ApolloServer({
   typeDefs,
   resolvers: {
     Query, People, PeopleInFilm, Pilot, PlanetsInFilm, Species, SpeciesInFilm, StarshipSpec, VesselsInFilm, Planet, Film, Vessel, Mutation
-  }
+  },
+  introspection: true
 });
 
 async function startServer(server) {
