@@ -1,6 +1,7 @@
 const { ApolloServer } = require('@apollo/server');
 const {startStandaloneServer} = require('@apollo/server/standalone')
-const { typeDefs } = require('./schema');
+// const { typeDefs } = require('./schema');
+import typeDefs from './schema'
 const { Query, People, PeopleInFilm, Pilot, PlanetsInFilm, Species, SpeciesInFilm, StarshipSpec, VesselsInFilm, Planet, Film, Vessel, Mutation } = require('./resolvers');
 
 const server = new ApolloServer({
