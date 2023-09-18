@@ -1,6 +1,6 @@
 import {dbModelName} from'./model.js';
 
-export const resolvers = {
+ const resolvers = {
   Query: {
     films: async (parent, args, context) => {
       try {
@@ -1188,3 +1188,18 @@ export const resolvers = {
 //   Vessel,
 //   Mutation,
 // } = resolvers;
+export const  {
+  Query,
+  People,
+  PeopleInFilm,
+  Pilot,
+  PlanetsInFilm,
+  Species,
+  SpeciesInFilm,
+  StarshipSpec,
+  VesselsInFilm,
+  Planet,
+  Film,
+  Vessel,
+  Mutation,
+} = resolvers;
