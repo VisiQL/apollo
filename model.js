@@ -1,5 +1,6 @@
 // require('dotenv').config();
-import { Pool } from 'pg';
+import pkg from 'pg';
+const {Pool} = pkg;
 
 let userPool = new Pool({
   connectionString:  'postgres://xstskucd:HUMKg1LzALryqlQM26N5uKLWF5ol1fbT@peanut.db.elephantsql.com/xstskucd',
