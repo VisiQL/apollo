@@ -1,4 +1,4 @@
-import {dbModelName} from'./model';
+import {dbModelName} from'./model.js';
 
 export const resolvers = {
   Query: {
