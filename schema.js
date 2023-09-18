@@ -1,7 +1,7 @@
 // const { gql } = require('@apollo/server');
-import gql from 'graphql-tag';
+import {gql} from 'graphql-tag';
 
-exports.typeDefs = gql`
+export const typeDefs = gql`
   type Query {
     films: [Film]
     film(_id: ID): Film

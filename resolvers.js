@@ -1,6 +1,6 @@
-const dbModelName = require('./model');
+import {dbModelName} from'./model';
 
-const resolvers = {
+export const resolvers = {
   Query: {
     films: async (parent, args, context) => {
       try {
@@ -1173,18 +1173,18 @@ const resolvers = {
   },
 };
 
-module.exports = {
-  Query,
-  People,
-  PeopleInFilm,
-  Pilot,
-  PlanetsInFilm,
-  Species,
-  SpeciesInFilm,
-  StarshipSpec,
-  VesselsInFilm,
-  Planet,
-  Film,
-  Vessel,
-  Mutation,
-} = resolvers;
+// module.exports = {
+//   Query,
+//   People,
+//   PeopleInFilm,
+//   Pilot,
+//   PlanetsInFilm,
+//   Species,
+//   SpeciesInFilm,
+//   StarshipSpec,
+//   VesselsInFilm,
+//   Planet,
+//   Film,
+//   Vessel,
+//   Mutation,
+// } = resolvers;
