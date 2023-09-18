@@ -1,4 +1,5 @@
-const { gql } = require('@apollo/server');
+// const { gql } = require('@apollo/server');
+import gql from 'graphql-tag';
 
 exports.typeDefs = gql`
   type Query {
