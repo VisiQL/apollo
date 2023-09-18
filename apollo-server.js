@@ -1,8 +1,8 @@
 import {ApolloServer}  from '@apollo/server';
 import {startStandaloneServer} from '@apollo/server/standalone'
-import {typeDefs} from './schema';
+import {typeDefs} from './schema.js';
 // import typeDefs from './schema'
-import {Query, People, PeopleInFilm, Pilot, PlanetsInFilm, Species, SpeciesInFilm, StarshipSpec, VesselsInFilm, Planet, Film, Vessel, Mutation} from   './resolvers';
+import {Query, People, PeopleInFilm, Pilot, PlanetsInFilm, Species, SpeciesInFilm, StarshipSpec, VesselsInFilm, Planet, Film, Vessel, Mutation} from   './resolvers.js';
 
 const server = new ApolloServer({
   typeDefs,
